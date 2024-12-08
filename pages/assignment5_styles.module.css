@@ -1,0 +1,12 @@
+.h1Style {
+    background-color: #2a5599;
+    color: white;
+    padding: 5px;
+}
+
+.svgStyle {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+

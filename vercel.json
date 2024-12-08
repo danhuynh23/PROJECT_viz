@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "api/loadFile.js": {
+        "maxDuration": 60
+      }
+    }
+  }
+  

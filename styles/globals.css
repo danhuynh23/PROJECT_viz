@@ -1,0 +1,59 @@
+/* styles/global.css */
+body {
+    background-image: url('/AdobeStock_302325921.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    cursor: url('/public/SPHelp.ani'), auto;
+  }
+    /* Add the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Style the element */
+.element {
+  border: 10px solid #d1b28f; /* Lighter golden beige border */
+  padding: 0px;  /* Padding for spacing */
+  font-family: 'Poppins', sans-serif;  /* Modern font */
+  font-size: 18px;  /* Set a good readable font size */
+  font-weight: 600;  /* Bold text for clarity */
+  color: #4e4e4e;  /* Darker text color for contrast */
+  text-align: center;  /* Center the text */
+  background-color: #f5e6d0; /* Soft beige background */
+  border-radius: 8px;  /* Slightly rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+  transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+/* Add a subtle shadow to the text for clarity */
+.element h1 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.element:hover {
+  transform: scale(1.05);  /* Slight zoom on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  /* Enhanced shadow on hover */
+}
+
+/* Global Custom Cursor (Animated) */
+.custom-cursor {
+  cursor: url('/SPHelp.ani'), auto; /* Path to your .ani cursor file */
+}
+
+/* Add this to your global CSS or component-specific CSS */
+.spinner {
+  border: 8px solid #f3f3f3; /* Light gray */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
